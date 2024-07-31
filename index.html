@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        background-color: rgb(8, 1, 34);
+    }
+
+    .a{
+      background-color: rgb(241, 185, 225);
+      display:inline-block;
+      padding: 20px;
+      height: 200px;
+      width: 500px;
+      margin: 20px;
+      text-align: center;
+    }
+    .b{
+      background-color: beige;  
+      display:inline-block;
+      padding: 20px;
+      height: 200px;
+      width: 500px;
+      margin: 20px;
+      text-align: center;
+    }
+    .c{
+      background-color:aliceblue;  
+      display:inline-block;
+      padding: 20px;
+      height: 200px;
+      width: 500px;
+      margin: 20px;
+      text-align: center;
+    }
+    .d{
+      background-color: rgb(166, 213, 239);  
+      display:inline-block;
+      padding: 20px;
+      height: 200px;
+      width: 500px;
+      margin: 20px;
+      text-align: center;
+    }
+    .e{
+      background-color: rgb(74, 128, 176);  
+      display:inline-block;
+      padding: 20px;
+      height: 200px;
+      width: 500px;
+      margin: 20px;
+      text-align: center;
+    }
+    .f{
+      background-color: rgb(238, 236, 238);  
+      display:inline-block;
+      padding: 20px;
+      height: 200px;
+      width: 500px;
+      margin: 20px;
+      text-align: center;
+    }
+    .g{
+      background-color: rgb(247, 207, 211);  
+      display:inline-flex;
+      padding: 20px;
+      height: 50px;
+      width: 500px;
+      margin: 20px;
+    }
+    .h{
+      background-color: rgb(234, 247, 164);  
+      display:inline-flex;
+      padding: 20px;
+      height: 50px;
+      width: 500px;
+      margin: 20px;
+    }
+    .i{
+      background-color: rgb(235, 108, 94);  
+      display:inline-flex;
+      padding: 20px;
+      height: 50px;
+      width: 200px;
+      margin: 20px;
+    }
+    .j{
+      background-color: rgb(154, 131, 140);  
+      display:inline-flex;
+      padding: 20px;
+      height: 50px;
+      width: 200px;
+      margin: 20px;
+    }
+    .k{
+      background-color: rgb(160, 228, 155);  
+      display:inline-flex;
+      padding: 20px;
+      height: 50px;
+      width: 200px;
+      margin: 20px;
+    }
+    .l{
+      background-color: rgb(148, 99, 127);  
+      display:inline-flex;
+      padding: 20px;
+      height: 50px;
+      width: 200px;
+      margin: 20px;
+    }
+    .m{
+      background-color: rgb(247, 207, 211);  
+      display:inline-flex;
+      padding: 20px;
+      height: 50px;
+      width: 200px;
+      margin: 20px;
+    }
+    .n{
+      background-color: rgb(64, 162, 175);  
+      display:inline-flex;
+      padding: 20px;
+      height: 50px;
+      width: 200px;
+      margin: 20px;
+    }
+    .o{
+      background-color: rgb(247, 207, 211);  
+      display:inline-flex;
+      padding: 20px;
+      height: 50px;
+      width: 200px;
+      margin: 20px;
+    }
+    .p{
+      background-color: rgb(90, 87, 132);  
+      display:inline-flex;
+      padding: 20px;
+      height: 50px;
+      width: 200px;
+      margin: 20px;
+    }
+    .q{
+      background-color: rgb(80, 178, 119);  
+      display:inline-flex;
+      padding: 20px;
+      height: 50px;
+      width: 200px;
+      margin: 20px;
+    }
+    .r{
+      background-color: rgb(234, 247, 164);  
+      display:inline-flex;
+      padding: 20px;
+      height: 50px;
+      width: 200px;
+      margin: 20px;
+    }
+    .s{
+      background-color: rgb(225, 209, 80);  
+      display:inline-flex;
+      padding: 20px;
+      height: 50px;
+      width: 200px;
+      margin: 20px;
+    }
+    .t{
+      background-color: rgb(85, 114, 130);  
+      display:inline-flex;
+      padding: 20px;
+      height: 50px;
+      width: 200px;
+      margin: 20px;
+    }
+    .u{
+      background-color: rgb(247, 207, 211);  
+      display:inline-flex;
+      padding: 20px;
+      height: 50px;
+      width: 200px;
+      margin: 20px;
+    }
+    .v{
+      background-color: rgb(234, 247, 164);  
+      display:inline-flex;
+      padding: 20px;
+      height: 50px;
+      width: 200px;
+      margin: 20px;
+    }
+    .w{
+      background-color: rgb(247, 207, 211);  
+      display:inline-flex;
+      padding: 20px;
+      height: 50px;
+      width: 200px;
+      margin: 20px;
+    }
+    .x{
+      background-color: rgb(152, 130, 146);  
+      display:inline-flex;
+      padding: 20px;
+      height: 50px;
+      width: 200px;
+      margin: 20px;
+    }
+    .y{
+      background-color: rgb(141, 217, 142);  
+      display:inline-flex;
+      padding: 20px;
+      height: 50px;
+      width: 200px;
+      margin: 20px;
+    }
+    .z{
+      background-color: rgb(211, 225, 132);  
+      display:inline-flex;
+      padding: 20px;
+      height: 50px;
+      width: 200px;
+      margin: 20px;
+    }
+    .a1{
+      background-color: rgb(247, 207, 211);  
+      display:inline-flex;
+      padding: 20px;
+      height: 50px;
+      width: 200px;
+      margin: 20px;
+    }
+    .a2{
+      background-color: rgb(234, 247, 164);  
+      display:inline-flex;
+      padding: 20px;
+      height: 50px;
+      width: 200px;
+      margin: 20px;
+    }
+    .a3{
+      background-color: rgb(247, 207, 211);  
+      display:inline-flex;
+      padding: 20px;
+      height: 50px;
+      width: 200px;
+      margin: 20px;
+    }
+    .a4{
+      background-color: rgb(234, 247, 164);  
+      display:inline-flex;
+      padding: 20px;
+      height: 50px;
+      width: 200px;
+      margin: 20px;
+    }
+    .a5{
+      background-color: rgb(247, 207, 211);  
+      display:inline-flex;
+      padding: 20px;
+      height: 50px;
+      width: 200px;
+      margin: 20px;
+    }
+    .a6{
+      background-color: rgb(234, 247, 164);  
+      display:inline-flex;
+      padding: 20px;
+      height: 50px;
+      width: 200px;
+      margin: 20px;
+    }
+    .a7{
+      background-color: rgb(247, 207, 211);  
+      display:inline-flex;
+      padding: 20px;
+      height: 50px;
+      width: 200px;
+      margin: 20px;
+    }
+    .a8{
+      background-color: rgb(234, 247, 164);  
+      display:inline-flex;
+      padding: 20px;
+      height: 50px;
+      width: 200px;
+      margin: 20px;
+    }
+    .a9{
+      background-color: rgb(247, 207, 211);  
+      display:inline-flex;
+      padding: 20px;
+      height: 50px;
+      width: 200px;
+      margin: 20px;
+    }
+    .a10{
+      background-color: rgb(234, 247, 164);  
+      display:inline-flex;
+      padding: 20px;
+      height: 50px;
+      width: 200px;
+      margin: 20px;
+    }
+    .a11{
+      background-color: rgb(247, 207, 211);  
+      display:inline-flex;
+      padding: 20px;
+      height: 50px;
+      width: 200px;
+      margin: 20px;
+    }
+    .a12{
+      background-color: rgb(234, 247, 164);  
+      display:inline-flex;
+      padding: 20px;
+      height: 50px;
+      width: 200px;
+      margin: 20px;
+    }
+    .a13{
+      background-color: rgb(247, 207, 211);  
+      display:inline-flex;
+      padding: 20px;
+      height: 50px;
+      width: 200px;
+      margin: 20px;
+    }
+    .a14{
+      background-color: rgb(234, 247, 164);  
+      display:inline-flex;
+      padding: 20px;
+      height: 50px;
+      width: 200px;
+      margin: 20px;
+    }
+    .a15{
+      background-color: rgb(234, 247, 164);  
+      display:inline-flex;
+      padding: 20px;
+      height: 50px;
+      width: 200px;
+      margin: 20px;
+    }
+    .a16{
+      background-color: rgb(247, 207, 211);  
+      display:inline-flex;
+      padding: 20px;
+      height: 50px;
+      width: 200px;
+      margin: 20px;
+    }
+    .a17{
+      background-color: rgb(234, 247, 164);  
+      display:inline-flex;
+      padding: 20px;
+      height: 50px;
+      width: 200px;
+      margin: 20px;
+    }
+    .a18{
+      background-color: rgb(247, 207, 211);  
+      display:inline-flex;
+      padding: 20px;
+      height: 50px;
+      width: 200px;
+      margin: 20px;
+    }
+    .a19{
+      background-color: rgb(234, 247, 164);  
+      display:inline-flex;
+      padding: 20px;
+      height: 50px;
+      width: 200px;
+      margin: 20px;
+    }
+    .a20{
+      background-color: rgb(234, 247, 164);  
+      display:inline-flex;
+      padding: 20px;
+      height: 50px;
+      width: 200px;
+      margin: 20px;
+    }
+    .a21{
+      background-color: rgb(247, 207, 211);  
+      display:inline-flex;
+      padding: 20px;
+      height: 50px;
+      width: 200px;
+      margin: 20px;
+    }
+    .a22{
+      background-color: rgb(234, 247, 164);  
+      display:inline-flex;
+      padding: 20px;
+      height: 50px;
+      width: 200px;
+      margin: 20px;
+    }
+    .a23{
+      background-color: rgb(247, 207, 211);  
+      display:inline-flex;
+      padding: 20px;
+      height: 50px;
+      width: 200px;
+      margin: 20px;
+    }
+    .a24{
+      background-color: rgb(234, 247, 164);  
+      display:inline-flex;
+      padding: 20px;
+      height: 50px;
+      width: 200px;
+      margin: 20px;
+    }
+    .a25{
+      background-color: rgb(247, 207, 211);  
+      display:inline-flex;
+      padding: 20px;
+      height: 50px;
+      width: 200px;
+      margin: 20px;
+    }
+    .a26{
+      background-color: rgb(234, 247, 164);  
+      display:inline-flex;
+      padding: 20px;
+      height: 50px;
+      width: 200px;
+      margin: 20px;
+    }
+
+
+</style>
+<body>
+    <div class="a">
+        <center><h1>PHP</h1></center>
+        <p>web server programming language</p>
+        <lable for="1"></lable>
+        <center><input type="button" name="php" id="1" value="Learn php" style="border-radius:20px ;"></center>
+    </div>
+    <div class="b">
+        <center><h1>jQuery</h1></center>
+        <p>A js library for developing web pages</p>
+        <lable for="1"></lable>
+        <center><input type="button" name="php" id="1" value="Learn jQuery" style="border-radius: 20px;"></center>
+    </div><br>
+    <div class="c">
+        <center><h1>Java</h1></center>
+        <p>A programming languge</p>
+        <lable for="1"></lable>
+        <center><input type="button" name="php" id="1" value="Learn java" style="border-radius:20px ;"></center>
+    </div>
+    <div class="d">
+        <center><h1>C++</h1></center>
+        <p>A programming languge</p>
+        <lable for="1"></lable>
+        <center><input type="button" name="php" id="1" value="Learn c++" style="border-radius: 20px;"></center>
+    </div><br>
+    <div class="e">
+        <center><h1>W3.css</h1></center>
+        <p>A CSS framework for faster and better responsive web pages</p>
+        <lable for="1"></lable>
+        <center><input type="button" name="php" id="1" value="Learn css" style="border-radius:20px ;">
+    </div>
+    <div class="f">
+        <center><h1>Bootstrap</h1>
+        <p>A CSS framework for designing better web pages</p>
+        <lable for="1"></lable>
+        <center><input type="button" name="php" id="1" value="Learn bootstrap" style="border-radius: 20px;">
+    </div><br>
+    <div class="g">
+        <center><h1>C</h1></center>
+           </div>
+    <div class="h">
+        <center><h1>c#</h1></center>
+            </div><br>
+    <div class="i">
+                <center><h1>R</h1></center>
+                   </div>
+    <div class="j">
+                <center><h1>Kotlin</h1></center>
+                    </div>
+    <div class="k">
+                <center><h1>Node.js</h1></center>
+                   </div>
+    <div class="l">
+                <center><h1>React</h1></center>
+                    </div><br>
+    <div class="m">
+                <center><h1>JSON</h1></center>
+                           </div>
+    <div class="n">
+            <center><h1>Vue</h1></center>
+                </div>
+    <div class="o">
+                    <center><h1>Kotlin</h1></center>
+                        </div>
+    <div class="p">
+                <center><h1>Node.js</h1></center>
+                   </div><br>
+    <div class="q">
+                <center><h1>React</h1></center>
+                    </div>
+    <div class="r">
+                <center><h1>JSON</h1></center>
+                           </div>
+    <div class="s">
+            <center><h1>Vue</h1></center>
+                </div>
+    <div class="t">
+                    <center><h1>mysql</h1></center>
+                        </div><br>
+     <div class="u">
+                 <center><h1>XML</h1></center>
+                    </div>
+     <div class="v">
+                 <center><h1>Sass</h1></center>
+                     </div>
+     <div class="w">
+                 <center><h1>RWD</h1></center>
+                            </div>
+     <div class="x">
+             <center><h1>Graphics</h1></center>
+                 </div><br>
+    <div class="y">
+                    <center><h1>SVG</h1></center>
+                        </div>
+     <div class="z">
+                 <center><h1>Canvas</h1></center>
+                    </div>
+     <div class="a1">
+                 <center><h1>Raspberry pi</h1></center>
+                     </div>
+     <div class="a2">
+                 <center><h3>Cyber Security</h3></center>
+                            </div><br>
+     <div class="a3">
+             <center><h1>Colors</h1></center>
+                 </div>
+                 
+        <div class="a4">
+                <center><h1>git</h1></center>
+                    </div>
+        <div class="a5">
+                        <center><h1>Matplotlib</h1></center>
+                            </div>
+         <div class="a6">
+                     <center><h1>Numpy</h1></center>
+                        </div><br>
+         <div class="a7">
+                     <center><h1>pandas</h1></center>
+                         </div>
+         <div class="a8">
+                     <center><h1>SciPy</h1></center>
+                                </div>
+         <div class="a9">
+                 <center><h1>ASP</h1></center>
+                     </div>
+        <div class="a10">
+                        <center><h1>Angular JS</h1></center>
+        </div><br>
+         <div class="a11">
+                     <center><h1>AppML</h1></center>
+                        </div>
+         <div class="a12">
+                     <center><h1>GO</h1></center>
+                         </div>
+         <div class="a13">
+                     <center><h1>TypeScript</h1></center>
+                                </div>
+         <div class="a14">
+                 <center><h1>Django</h1></center>
+                     </div><br>
+        <div class="a15">
+                        <center><h1>MongoDB</h1></center>
+                                   </div>
+            <div class="a16">
+                    <center><h1>Statistics</h1></center>
+                        </div>
+            <div class="a17">
+                            <center><h1>Data science</h1></center>
+                                </div>
+             <div class="a18">
+                         <center><h1>Typing Speed</h1></center>
+                            </div><br>
+             <div class="a19">
+                         <center><h1>How to</h1></center>
+                             </div>
+             <div class="a20">
+                         <center><h1>Code Game</h1></center>
+                                    </div>
+             <div class="a21">
+                     <center><h1>Space</h1></center>
+                         </div>
+            <div class="a22">
+                            <center><h1>PostgreSQL</h1></center>
+                                </div><br>
+             <div class="a23">
+                         <center><h1>Excel</h1></center>
+                            </div>
+             <div class="a24">
+                         <center><h4>DSA-Data Structures and Algorithms</h4></center>
+             </div>
+             <div class="a25">
+                         <center><h2>Machine Learning</h2></center>
+                                    </div>
+             <div class="a26">
+                     <center><h2>Artificial Intelligence</h2></center>
+                         </div><br>
+        
+    
+
+</body>
+</html>
